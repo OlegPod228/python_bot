@@ -305,7 +305,7 @@ def generate(emoji, text):
             a += ('{}⠀⠀⠀⠀⠀⠀{}\n'.format(emoji, emoji))
             a += ('{}⠀⠀⠀⠀⠀⠀{}\n'.format(emoji, emoji))
             a += ('{}⠀⠀⠀⠀⠀⠀{}\n'.format(emoji, emoji))
-            a += (emoji * 4)
+            a += (emoji * 4 + '\n')
             text_result += a + '\n'
             a = ''
         elif i == 'Х' or i == 'х':
